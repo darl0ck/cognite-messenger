@@ -1,0 +1,26 @@
+.App {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  &__chat {
+    display: flex;
+    flex-flow: row;
+
+    height: 95vh;
+    border: 1px solid red;
+  }
+  &__chat-list {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    border: 1px solid green;
+  }
+  &__messages-list {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    border: 1px solid brown;
+  }
+}
